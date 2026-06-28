@@ -32,7 +32,6 @@ fun SmartFileToolboxApp() {
     MaterialTheme {
         Surface {
             val navController = rememberNavController()
-
             Scaffold(
                 bottomBar = { BottomNavBar(navController) }
             ) { innerPadding ->
